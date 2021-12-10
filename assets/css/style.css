@@ -1,9 +1,20 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: normal;
+    background-image: url('../images/wallpaper.jpg');
+}
 #navBar {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: space-between;
     font-size: 24px;
+    background-color: rgb(133, 186, 255);
+    width: 100%;
+}
+#header {
+    font-weight: normal;
+    padding-left: 25px;
 }
 #links {
     display: flex;
@@ -11,8 +22,10 @@
     flex-direction: row;
     align-items: center;
     font-size: 12px;
+    font-weight: normal;
 }
 .hLink {
+    font-weight: normal;
     padding: 15px;
 }
 #profileImg {
@@ -30,19 +43,35 @@
 }
 #aboutTitle {
     /* align-self: top; */
-    padding-left: 20px;
+    font-weight: normal;
+    padding-left: 10px;
+    margin-top: 0px;
+    margin-bottom: 0px;;
 }
 #aboutText {
-    padding-left: 15px;
+    background-color: cornsilk;
+    padding: 0px 20px 0px 20px;
     align-self: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 #aboutImgContainer {
-    padding: 20px;
+    background-color: rgb(230, 230, 230);
+    padding: 20px 4px 2px 4px;
 }
 #aboutMeContent {
-    padding: 20px;
+    padding: 20px 4px 2px 4px;
+    background-color: rgb(230, 230, 230);
 }
 #contentMenu {
     display: flex;
     justify-content: space-around;
+}
+.folderIcon {
+    max-height: 100px;
+    max-width: 100px;
+}
+.contentTitle {
+    text-align: center;
+    margin-top: 0;
 }
