@@ -1,0 +1,48 @@
+#navBar {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 24px;
+}
+#links {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+}
+.hLink {
+    padding: 15px;
+}
+#profileImg {
+    max-width: 200px;
+    max-height: 200px;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+}
+#aboutMe {
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+#aboutTitle {
+    /* align-self: top; */
+    padding-left: 20px;
+}
+#aboutText {
+    padding-left: 15px;
+    align-self: center;
+}
+#aboutImgContainer {
+    padding: 20px;
+}
+#aboutMeContent {
+    padding: 20px;
+}
+#contentMenu {
+    display: flex;
+    justify-content: space-around;
+}
