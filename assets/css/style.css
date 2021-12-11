@@ -72,6 +72,9 @@ content {
     padding: 5px 4px 2px 4px;
     border-radius: 5px;
 }
+#aboutImgContainer {
+    max-height: 220px;
+}
 .aboutContainer {
     padding: 5px 4px 2px 4px;
     background-color: rgb(230, 230, 230);
