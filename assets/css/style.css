@@ -35,6 +35,7 @@ body {
 #profileImg {
     max-width: 200px;
     max-height: 200px;
+    border-radius: 5px;
 }
 #content {
     display: flex;
@@ -62,13 +63,16 @@ body {
 #aboutImgContainer {
     background-color: rgb(230, 230, 230);
     padding: 5px 4px 2px 4px;
+    border-radius: 5px;
 }
 #aboutMeContainer {
     padding: 5px 4px 2px 4px;
     background-color: rgb(230, 230, 230);
+    border-radius: 5px;
 }
 #aboutMeContent {
     background-color: #f5f5f5;
+    border-radius: 5px;
 }
 #contentMenu {
     display: flex;
@@ -76,6 +80,10 @@ body {
     margin-top: 100px;
     margin-bottom: 100px;
     color: white;
+}
+a {
+    text-decoration: none;
+    color: inherit;
 }
 .folderIcon {
     max-height: 100px;
